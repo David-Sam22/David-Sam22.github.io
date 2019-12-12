@@ -1,5 +1,5 @@
 body  {
- background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),url(../source/background.jpg);
+ background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.2)),url(../source/background.jpg);
  background-position: center;
  background-repeat: no-repeat;
  background-size: cover;
@@ -21,7 +21,17 @@ body  {
 
 .desc{
   padding: 5px;
+  height: auto;
+  text-align: center;
   z-index: 0;
+}
+
+.desc i{
+  color: red;
+}
+
+.desc h4{
+  font-size: 20px;
 }
 
 .thumbnail img{
@@ -30,14 +40,14 @@ body  {
 }
 
 .card{
-  width: 30%;
+  width: 18%;
   margin-top: 10px;
   background-color: white;
-  text-align: center;
   margin-left: 30px;
   margin-top: 20px;
   box-shadow: 5px 5px grey;
 }
+
 .grid-container {
   display: grid;
   grid-template-areas:
@@ -85,6 +95,10 @@ display: inline;
   margin-left: 25px;
   border-radius: 50%;
 }
+.profile h3
+{
+  font-size: 30px;
+}
 .language{
   height: 150px;width: 200px;
   word-wrap: break-word;
@@ -93,7 +107,7 @@ display: inline;
 
 .language li{
   background-color: rgba(155, 135, 12, 0.3);
-  font-size: 15px;
+  font-size: 16px;
   border-radius: 20%;
   padding: 3px;
   word-break: normal;
@@ -113,7 +127,7 @@ display: inline;
 }
 .social p{
   text-align: center;
-  color: white;
+  color: Blue;
 }
 .social ul{
   text-align: center;
