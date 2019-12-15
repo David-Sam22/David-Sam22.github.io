@@ -23,7 +23,6 @@ body  {
   padding: 5px;
   height: auto;
   text-align: center;
-  z-index: 0;
 }
 
 .desc i{
@@ -46,6 +45,15 @@ body  {
   margin-left: 30px;
   margin-top: 20px;
   box-shadow: 5px 5px grey;
+}
+
+.card:hover{
+    background-color: rgba(120, 255, 255, 0.4);
+}
+
+.card a{
+  text-decoration: none;
+  color: black;
 }
 
 .grid-container {
